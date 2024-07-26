@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myweb2.css">
+    <script defer src="myweb2.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/246f2b2141.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <title>종합운동장</title>
+</head>
+
+<body id="body">
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar_toggle">
+          <a href="#">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <ul class="navbar_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <ul class="navbar_icons">
+          <li><i class="fa-regular fa-pen-to-square"></i></li>
+          <li><i class="fa-regular fa-user icon"></i></li>
+        </ul>
+      </nav>
+    </div>
+
+    <header>
+      <!-- 헤더 -->
+      <div class="log">
+        <img src="로고.png">
+      </div>
+      <br><br><br>
+    </header>
+          
+    <div class="wrap">
+    <!-- 컨텐츠 -->
+      <section class="con">
+        <br>
+      <h2>종합운동장</h2>
+      <div id="myBtnContainer">
+        <button class="btn" name="button1" value="전체"onclick="filterSelection('all')">전체</button>
+        <button class="btn" name="button" value="내" onclick="filterSelection('in')">구장 내</button>
+        <button class="btn" name="button"value="외"onclick="filterSelection('out')">구장 외</button>
+      </div>
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column in">
+          <a href="index3.html">
+          <div class="content" >
+            <img src="https://pbs.twimg.com/media/GMqdQ7sbkAA4jQO?format=jpg&name=4096x4096" alt="in" style="width:300px; height:300px">
+            <h3>통빱</h3>
+          </div>
+          </a>
+        </div>
+        <div class="column in">
+          <div class="content">
+            <img src="https://d12zq4w4guyljn.cloudfront.net/750_750_20220904124952_photo2_3dc58a5d0483.jpg" alt="in" style="width:300px; height:300px">
+            <h3>델리스푼</h3>
+          </div>
+        </div>
+        <div class="column in">
+          <div class="content">
+            <img src="https://cdn.oasis.co.kr:48581/product/64471/thumb/thumb_644717acd20ac-53c2-4e62-9ce4-a514cf97e08c.jpg" alt="in" style="width:300px; height:300px">
+            <h3>명인만두</h3>
+          </div>
+        </div>
+        <div class="column in">
+          <div class="content">
+            <img src="https://mblogthumb-phinf.pstatic.net/MjAyMTAyMTBfMjcy/MDAxNjEyODg1NzkwMjI2.IVprp9qQ-XL7QLM99h_8ztJdZa9JKQq43a3uMTDwOKog.Xn3qh2cVACR_8P8axleZfEi4IMw2vsmlqABsVnS-o24g.PNG.895665/%EB%8F%99%ED%94%BC%EB%9E%91_%EC%99%80%ED%8C%A1_(3).png?type=w800" alt="in" style="width:300px; height:300px">
+            <h3>와팡</h3>
+          </div>
+        </div>
+        <div class="column in">
+          <div class="content">
+            <img src="https://pbs.twimg.com/media/FiAopTeaYAAir-8?format=jpg&name=medium" alt="in" style="width:300px; height:300px">
+            <h3>신철판</h3>
+          </div>
+        </div>
+        <div class="column in">
+          <div class="content">
+            <img src="https://pbs.twimg.com/media/FyllMQCWcAA3xmp?format=jpg&name=large" alt="in" style="width:300px; height:300px">
+            <h3>이가네 떡볶이</h3>
+          </div>
+        </div>
+        <div class="column in">
+          <div class="content">
+            <img src="https://pbs.twimg.com/media/FwFFVjJaYAACQae?format=jpg&name=large" alt="in" style="width:300px; height:300px">
+            <h3>갑또리 닭강정</h3>
+          </div>
+        </div>
+        <div class="column in">
+          <div class="content">
+            <img src="https://mblogthumb-phinf.pstatic.net/MjAxOTA0MjNfMTEg/MDAxNTU2MDIxODAzMzU5.Pz9kF643ca4V2r2Hzvbx6NjUJ70HnAmpol6bR8iI1mUg.aXXiWlECGWRYqn1tLtqMeuK9B55tzrWLoZnALA7o_PQg.JPEG.l9900706/20190423_181258.jpg?type=w800" alt="in" style="width:300px; height:300px">
+            <h3>어메불족발·보쌈</h3>
+          </div>
+        </div>
+        <div class="column in">
+          <div class="content">
+            <img src="https://scontent-gmp1-1.xx.fbcdn.net/v/t1.6435-9/52918015_1243347465841731_6767010292434993152_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_PaFsrX7ycYQ7kNvgFCxwMg&_nc_ht=scontent-gmp1-1.xx&oh=00_AYD8ZVIATrkLTzMIWtwtccwlyQ9SRHTyGa2CdgFwOUptaA&oe=666A341C" alt="in" style="width:300px; height:300px">
+            <h3>수내닭꼬치</h3>
+          </div>
+        </div>
+        <div class="column out">
+          <div class="content">
+            <img src="https://img.siksinhot.com/place/1553154253227102.JPG?w=307&h=300&c=Y" alt="out" style="width:300px; height:300px">
+            <h3>파오파오</h3>
+          </div>
+        </div>
+        <div class="column out">
+          <div class="content">
+            <img src="https://ssproxy.ucloudbiz.olleh.com/v1/AUTH_e59809eb-bdc9-44d7-9d8f-2e7f0e47ba91/post_card/238544_1667282192_i1IaChyb.jpg" alt="out" style="width:300px; height:300px">
+            <h3>잭슨피자</h3>
+          </div>
+        </div>
+        <div class="column out">
+          <div class="content">
+            <img src="https://d12zq4w4guyljn.cloudfront.net/750_750_20191230121117_photo1_2591119a6a92.jpg" alt="out" style="width:300px; height: 300px;">
+            <h3>칼라분식</h3>
+          </div>
+        </div>
+        <div class="column out">
+          <div class="content">
+            <img src="https://mblogthumb-phinf.pstatic.net/MjAxODA0MjlfMTgw/MDAxNTI0OTgzNDAzNjI5.4sZQjl4SSShK58158JCIQUyiMvTDn9TMCMmG60bKSkAg.wXHPdc3P0KUyiC_I1q41YxDGEVkO8vCyxBgLrqK9jYcg.JPEG.pksorya/attachImage_52011605.jpeg?type=w800" alt="out" style="width:300px; height: 300px;">
+            <h3>컵앤곱</h3>
+          </div>
+        </div>
+        <div class="column out">
+          <div class="content">
+            <img src="https://mblogthumb-phinf.pstatic.net/MjAyMTA5MTJfMTI4/MDAxNjMxNDA2MjEyMzQy.TCLrfkf560oyfE8wao7ez0eYJD7E72ay40yexXBgITEg.WKtw6hQgkpHXW9h3fJVhmJRn5-AlowM9bftfJBrK30sg.JPEG.unitimer/20210911%EF%BC%BF171620.jpg?type=w800" alt="out" style="width:300px; height: 300px;">
+            <h3>깻잎닭강정</h3>
+          </div>
+        </div>
+        <div class="column out">
+          <div class="content">
+            <img src="https://dnvefa72aowie.cloudfront.net/business-profile/bizPlatform/profile/5793426/1692784948788/ODI0OGE2NGE5OGM2MGQ5YmQ4ZDlmMDE0OTk2YjMzNzI0OWVkODM2OTNkMTU3NmUyYWI1MWI2M2UxOWYzYWM1Yl8wLmpwZWc=.jpeg?q=95&s=1440x1440&t=inside" alt="out" style="width:300px; height: 300px;">
+            <h3>타코비</h3>
+          </div>
+        </div>
+        <div class="column out">
+          <div class="content">
+            <img src="https://pbs.twimg.com/media/FDZCiLcaUAAhNSh?format=jpg&name=large" alt="out" style="width:300px; height: 300px;">
+            <h3>동북양꼬치</h3>
+          </div>
+        </div>
+        <div class="column out">
+          <div class="content">
+            <img src="https://pbs.twimg.com/media/GHmADmjbIAACP3v.jpg" alt="out" style="width:300px; height: 300px;">
+            <h3>후발대</h3>
+          </div>
+        </div>
+        <div class="column out">
+          <div class="content">
+            <img src="https://img.siksinhot.com/seeon/1682990929848170.jpg?w=307&h=300&c=Y" alt="out" style="width:300px; height: 300px;">
+            <h3>명서식당</h3>
+          </div>
+        </div>
+      </div>
+          <!-- END GRID -->
+      <div class="pagination">
+        <a href="#" class="prevPage">&laquo;</a>
+        <a class="active" class="prevPage">1</a>
+        <a href="#" class="nextPage">2</a>
+        <a href="#">3</a>
+        <a href="#" class="nextPage">&raquo;</a>
+      </div>
+    </section>
+    </div>
+        <div class="clear"></div>
+        <footer>
+          <!-- 푸터 -->
+          <hr/>
+          <div id="logoi">
+            <img src="logo.png" id="logo" />
+          </div>
+          <br><br>
+          <div id="info">개인정보 처리방침        문자중계        고객질문        사이트맵</div>
+          <div id="copy">
+            <br>
+            Copyright©KBO, All Rights Reserved<br />
+            (사)한국야구위원회 | 서울시 강남구 강남대로 278 | 02)3460-4600
+            <br><br>
+          </div>
+          <div id="social">
+            <img src="insta.png" width="33" height="33" alt="insta" />
+            <img src="twitter.png" width="33" height="34" alt="Twitter" />
+          </div>
+        </footer>
+  </div>
+</body>
+</html>
